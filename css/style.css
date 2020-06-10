@@ -44,8 +44,9 @@ body {
 
 .container-fullwidth.blu .container {
     background-image: url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png");
-    background-position: center;
-    background-size: cover;
+    background-position: right bottom;
+    background-size: 50% auto;
+    background-repeat: no-repeat;
 }
 
 nav {
@@ -110,10 +111,11 @@ li {
     border-radius: 5px;
     font-size: 9px;
     color: white;
-    padding: 4px 4px;
+    padding: 5px 4px;
     text-align: center;
     display: inline-block;
     text-transform: uppercase;
+    border: none
 }
 
 .banner {
@@ -140,7 +142,8 @@ li {
     text-align: center;
     display: inline-block;
     text-transform: uppercase;
-    margin-top: 25px
+    margin-top: 25px;
+    border: none;
 }
 
 .container-fullwidth.grigio .container {
@@ -175,23 +178,13 @@ li {
 }
 
 .immagine img {
-    width: 135.19px;
+    width: auto;
     height: 160px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    margin-top: 40px;
-}
-
-.immagine-tutor img {
-    width: 217px;
-    height: 181px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    margin-top: 21px;
+    display: block;
+    margin: 20px auto;
 
 }
+
 
 .titolo-box {
     text-align: center;
@@ -201,7 +194,7 @@ li {
 .titolo-box h3 {
     padding-bottom: 20px;
     color: rgb(131,184,2);
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .titolo-box hr {
