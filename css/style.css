@@ -15,44 +15,37 @@ body {
 }
 .blu {
     background-color: rgb(13,50,90);
-    /* da cancellare */
-    height: 400px;
     color: white;
 }
 
 .grigio {
     background-color: #d3d3d3;
-    /* da cancellare */
     height: 100px;
 }
 
 .bianco {
     background-color: white;
-    /* da cancellare */
-    height: 500px;
+
 }
 
 .container {
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
-    /* da cancellare */
     height: 100%;
-    /* border: 1px solid black; */
-    /* background-color: red; */
+
 }
 
 .container-fullwidth.blu .container {
     background-image: url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png");
     background-position: right bottom;
-    background-size: 50% auto;
+    background-size: 75% auto;
     background-repeat: no-repeat;
 }
 
 nav {
     height: 70px;
     text-transform: uppercase;
-    /* background-color: orange; */
 }
 
 .immagine-fluentify {
@@ -65,33 +58,24 @@ nav {
 .immagine-fluentify img {
     position: absolute;
     top: 40%;
-    /* left: 50%; */
     transform: translate(0, -50%);
 }
 
 .collegamenti {
-    /* display: inline-block; */
     float: left;
     width: 50%;
-    /* da cancellare */
-    /* height: 100%;
-    border: 1px solid white; */
 }
 
-.login{
-    /* display: inline-block; */
+.login {
     float: left;
     width: 35%;
-    /* da cancellare */
-    /* height: 100%;
-    border: 1px solid white; */
 }
 
 li {
     display: inline;
     line-height: 70px;
-    padding: 2px;
-    font-size: 9px
+    padding: 10px;
+    font-size: 10px
 }
 
 .button-blu {
