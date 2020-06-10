@@ -44,10 +44,10 @@ body {
 
 .container-fullwidth.blu .container {
     background-image: url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png");
-    background-position: top center;
+    background-position: center;
     background-size: cover;
-
 }
+
 nav {
     height: 70px;
     text-transform: uppercase;
@@ -154,12 +154,12 @@ li {
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 14px;
-
 }
 
 .barra-grigia p {
     color: rgb(153,153,153);
     padding-top: 5px;
+    font-size: 12px;
 }
 
 .box {
